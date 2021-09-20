@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef2822ae-f944-4c2b-9e64-2ddb9e3742c7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test_exercice.py</StartupFile>
+    <StartupFile>exercice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="settings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="settings\files_to_update.txt" />
+    <Content Include="settings\test_associations.json" />
+    <Content Include="settings\variables.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
